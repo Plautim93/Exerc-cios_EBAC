@@ -8,18 +8,12 @@ Funcionalidade: [US-0001]Configurar produto
 
     Contexto:
         Dado que estou na página de configuração do produto
+   
     Esquema do Cenário: Configuração do produco de a cordo com meu gosto e tamanho
-        Quando clico no botão selecionar <opcao>
-        Então o sistema deve manter selecionado <opcao> do produto
+        Quando clico no botão selecionar cor
+        Então o sistema deve manter selecionado a cor do produto
             E com o botão comprar deve ficar destacado
-        Exemplos:
-            | opcao              |
-            | cor                |
-            | tamanho            |
-            | quantidade_produto |
-
-
-
+  
 
     Esquema do Cenário: Seleção de produtos com tamanho e cor diferentes
         Quando seleciono uma blusa da cor <cor>
