@@ -18,4 +18,3 @@ Funcionalidade: [US-0002] – Login na plataforma
     Cenário: Login de usuário com redirecionamento para a tela de checkout
         Quando o usuário informar o email <email> e senha <senha>
         Então o usuário <nome> deve ser redirecionado para a tela de checkout
-            E a mensagem <mensagem> deve ser exibida na tela
