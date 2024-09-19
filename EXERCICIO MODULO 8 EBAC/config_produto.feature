@@ -12,13 +12,10 @@ Funcionalidade: [US-0001]Configurar produto
     Esquema do Cenário: Configuração do produco de a cordo com meu gosto e tamanho
         Quando clico no botão selecionar cor
         Então o sistema deve manter selecionado a cor do produto
-            E com o botão comprar deve ficar destacado
   
 
     Esquema do Cenário: Seleção de produtos com tamanho e cor diferentes
-        Quando seleciono uma blusa da cor <cor>
-            E tamanho <tamanho>
-            E adiciono a quantidade <quantidade>
+        Quando seleciono uma blusa da cor <cor>, <tamanho> e <quantidade>
         Então o sistema deve acescentar o produto no carrinho
 
         Exemplos:
@@ -33,6 +30,4 @@ Funcionalidade: [US-0001]Configurar produto
     Cenário: limpar configuração do produto selecionado
         Quando clico no botão limpar configuração
         Então o sistema deve limpar a configuração do produto
-            E a quantidade do produto deve ser 1
-            E a cor do produto não deve estar selecionada
-            E o tamanho do produto não deve estar selecionado
+
